@@ -1,8 +1,52 @@
 * Pretty printing styles. Used with prettify.js. */
 /* Vim sunburst theme by David Leibovic */
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Raleway;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Raleway;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
 
-pre .str, code .str { color: #96C5B0; } /* string  - seafoam green */
-pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
+div {
+    font-family: myFirstFont;
+}
+
+pre .str, code .str { color: #729f98; } /* string  - seafoam green */
+pre .kwd, code .kwd { color: #aa863a; } /* keyword - dark pink */
 pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
 pre .typ, code .typ { color: #89bdff; } /* type - light blue */
 pre .lit, code .lit { color: #3387CC; } /* literal - blue */
@@ -10,17 +54,17 @@ pre .pun, code .pun { color: #000000; } /* punctuation - black */
 pre .pln, code .pln { color: #000000; } /* plaintext - black */
 pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
 pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
-pre .atv, code .atv { color: #96C5B0; } /* html/xml attribute value - seafoam green */
+pre .atv, code .atv { color: #729f98; } /* html/xml attribute value - seafoam green */
 pre .dec, code .dec { color: #3387CC; } /* decimal - blue */ 
 
 pre.prettyprint, code.prettyprint{
-        background-color: #FFFFFF; 
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -o-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -khtml-border-radius: 8px;
-        border-radius: 8px;
+        background-color: #f0eceb; 
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -o-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -khtml-border-radius: 2px;
+        border-radius: 2px;
 }
 
 pre.prettyprint { 
@@ -32,9 +76,6 @@ pre.prettyprint {
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; } /* IE indents via margin-left */
-li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
-/* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
   pre .str, code .str { color: #060; }
