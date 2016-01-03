@@ -46,9 +46,9 @@ div {
 }
 
 pre .str, code .str { color: #729f98; } /* string  - seafoam green */
-pre .kwd, code .kwd { color: #aa863a; } /* keyword - dark pink */
+pre .kwd, code .kwd { color: #aa863a; } /* keyword - brown */
 pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
-pre .typ, code .typ { color: #89bdff; } /* type - light blue */
+pre .typ, code .typ { color: #A690A4; } /* type - light blue */
 pre .lit, code .lit { color: #3387CC; } /* literal - blue */
 pre .pun, code .pun { color: #000000; } /* punctuation - black */
 pre .pln, code .pln { color: #000000; } /* plaintext - black */
